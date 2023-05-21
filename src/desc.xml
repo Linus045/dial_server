@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<root
+  xmlns="urn:schemas-upnp-org:device-1-0"
+  xmlns:ms="urn:microsoft-com:wmc-1-0" >
+<specVersion>
+  <major>1</major>
+  <minor>0</minor>
+</specVersion>
+<device>
+  <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+  <friendlyName>Linus Test Thinggy</friendlyName>
+  <manufacturer>Linus045</manufacturer>
+  <manufacturerURL>http://www.willms.dev/</manufacturerURL>
+  <modelDescription>Network Player</modelDescription>
+  <modelName>Some-Model-Here</modelName>
+  <modelNumber>Ove9000</modelNumber>
+  <modelURL>http://www.willms.dev/</modelURL>
+  <serialNumber>012345123</serialNumber>
+  <UDN>uuid:170ba466-59ac-4039-a457-0fab725b60ff</UDN>
+  <UPC>125817928395</UPC>
+  <serviceList>
+	<service>
+	  <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+	  <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+	  <!-- <SCPDURL>/RenderingControl/desc.xml</SCPDURL> -->
+	  <!-- <controlURL>/RenderingControl/ctrl</controlURL> -->
+	  <!-- <eventSubURL>/RenderingControl/evt</eventSubURL> -->
+	</service>
+	<service>
+	  <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+	  <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+	  <!-- <SCPDURL>/ConnectionManager/desc.xml</SCPDURL> -->
+	  <!-- <controlURL>/ConnectionManager/ctrl</controlURL> -->
+	  <!-- <eventSubURL>/ConnectionManager/evt</eventSubURL> -->
+	</service>
+	<service>
+	  <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+	  <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+	  <!-- <SCPDURL>/AVTransport/desc.xml</SCPDURL> -->
+	  <!-- <controlURL>/AVTransport/ctrl</controlURL> -->
+	  <!-- <eventSubURL>/AVTransport/evt</eventSubURL> -->
+	</service>
+  </serviceList>
+  <presentationURL>http://192.168.178.9:8081</presentationURL>
+</device>
+	  </root>
